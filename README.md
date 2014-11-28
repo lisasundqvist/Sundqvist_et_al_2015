@@ -33,3 +33,4 @@ NOTE: The commands in the notebook refer to the linux version of fastsimcoal2 (i
     d. `wesanderson` (`devtools::install_github("karthik/wesanderson")`)
 
 
+When these instructions are followed, the code in the notebook, mentioned above, can be executed. Note that the simulation process and take hours to complete using the parameters specified.
