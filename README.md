@@ -5,7 +5,9 @@ This repository contains all of the necessary information to allow readers to re
 The following files are included in the repository:
 
 a. __README:__ Describes the repository and its contents
+
 b. __parMaker:__ A custom function for programatically generating .par files for use in fastsimcoal2
+
 c. __simFun:__ A custom wrapper function, which generates .par files (using parMaker), deploys a system command to run fastsimcoal2, read and converts the generated .arp file to a genepop file, and uses this file to calculate directional migration using the `divMigrate` function from `diveRsity`.
 
 ## Things to do before trying to reproduce the analyses
@@ -23,8 +25,11 @@ NOTE: The commands in the notebook refer to the linux version of fastsimcoal2 (i
 4. In R, the following packages should be installed:
     
     a. `diveRsity` (`install.packages("diveRsity")`)
+    
     b. `ggplot2` (`install.packages("ggplot2")`)
+    
     c. `devtools` (`install.packages("devtools")`)
+    
     d. `wesanderson` (`devtools::install_github("karthik/wesanderson")`)
 
 
