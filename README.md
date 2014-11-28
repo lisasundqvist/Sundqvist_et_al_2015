@@ -18,7 +18,7 @@ The analyses are documented in an R notebook available [here](http://rpubs.com/k
 
 2. Download `fastsimcoal2` and make sure the executable is in your current working directory. The latest version is available [here](http://cmpg.unibe.ch/software/fastsimcoal2/)
 
-NOTE: The commands in the notebook refer to the linux version of fastsimcoal2 (i.e. `fscLoc = "./fastsimcoal21"`). Please make sure to adjust this argument if your version of fastsimcoal differs.
+    NOTE: The commands in the notebook refer to the linux version of fastsimcoal2 (i.e. `fscLoc = "./fastsimcoal21"`). Please make sure to adjust this argument if your version of fastsimcoal differs.
 
 3. Download `parMarker.R` and `simFun.R`, and make sure they are also saved in the current working directory.
 
