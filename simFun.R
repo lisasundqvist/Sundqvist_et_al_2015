@@ -14,7 +14,7 @@
 # outname =  the directory and file prefix name to be used
 
 simFun <- function(fscLoc = "./fastsimcoal21", fst = 0.05, 
-                   samp_size = 50, nloci = 50, nsim = 100, 
+                   samp_size = 50, nloci = 50, nsim = 1000, 
                    mu = 0.0005, pop_size = 1000, outname = "test",
                    para = TRUE, mig_mod = "uni"){
   
@@ -23,12 +23,13 @@ simFun <- function(fscLoc = "./fastsimcoal21", fst = 0.05,
   if(mig_mod == "uni"){
     mig_mat <- matrix(c(0, mig_rate, 0, 0), nrow = 2, ncol = 2, byrow = TRUE)
   }
-  if(mig_mod == "bi"){
+  if(mig_mod == "symbi"){
     mig_mat <- matrix(c(0, mig_rate/2, mig_rate/2, 0), nrow = 2, 
                       ncol = 2, byrow = TRUE)
   }
-  if(mig_mod == "none"){
-    mig_mat <- matrix(0, nrow = 2, ncol = 2)
+  if(mig_mod == "asymbi"){
+        mig_mat <- matrix(c(0, (mig_rate/4)*3, mig_rate/4, 0), nrow = 2, 
+                      ncol = 2, byrow = TRUE)
   }
   # run generate the fastsimcoal parameter file
   if(file.exists(outname)){
