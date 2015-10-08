@@ -10,7 +10,7 @@ b. __parMaker:__ A custom function for programatically generating .par files for
 
 c. __simFun:__ A custom wrapper function, which generates .par files (using parMaker), deploys a system command to run fastsimcoal2, read and converts the generated .arp file to a genepop file, and uses this file to calculate directional relative migration using the `divMigrate` function from `diveRsity`.
 
-d. __multiPlot:__ A function that makes it possible to create multiplots.
+d. __multiPlot:__ A function that makes it possible to create multiplots. From the cookbook for R found [here](http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_%28ggplot2%29/)
 
 ## Things to do before trying to reproduce the analyses
 
