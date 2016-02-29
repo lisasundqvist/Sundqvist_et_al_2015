@@ -1,6 +1,6 @@
 # README
 
-This repository contains all of the necessary information to allow readers to reproduce the simulation analyses carried out in Sundqvist et al. 2015 (link to be added when paper is published).
+This repository contains all of the necessary information to allow readers to reproduce the simulation analyses carried out in Sundqvist et al. 2016 (link to be added when paper is published).
 
 The following files are included in the repository:
 
@@ -14,7 +14,7 @@ d. __multiPlot:__ A function that makes it possible to create multiplots. From t
 
 ## Things to do before trying to reproduce the analyses
 
-The simulations used to test the performance of the method are documented in an R notebook available [here](https://rpubs.com/lisasundqvist/SimulationsSundqvist15). The simulation used to demonstrate the use of divMigrate-online is available [here](http://rpubs.com/lisasundqvist/divMigrate-online) The R code in these notebooks are reproducible providing the instructions below have been followed.
+The simulations used to test the performance of the method are documented in an R notebook available [here](https://rpubs.com/lisasundqvist/SimulationsSundqvist16). The simulation used to demonstrate the use of divMigrate-online is available [here](http://rpubs.com/lisasundqvist/divMigrate-online) The R code in these notebooks are reproducible providing the instructions below have been followed.
 
 1. Install the R distribution for your OS (http://cran.r-project.org/).
 
