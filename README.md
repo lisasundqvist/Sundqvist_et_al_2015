@@ -1,6 +1,6 @@
 # README
 
-This repository contains all of the necessary information to allow readers to reproduce the simulation analyses carried out in Sundqvist et al. 2016 (link to be added when paper is published).
+This repository contains all of the necessary information to allow readers to reproduce the simulation analyses carried out in [Sundqvist et al. 2016](http://onlinelibrary.wiley.com/doi/10.1002/ece3.2096/full).
 
 The following files are included in the repository:
 
